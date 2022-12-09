@@ -2,6 +2,7 @@
 {% set version = "2.2.3" %}
 
 
+
 package:
   name: {{ name|lower }}
   version: {{ version }}
@@ -21,10 +22,10 @@ requirements:
     - python >=3.8
     - setuptools >=30.3.0
     - setuptools-scm
+    - pytest
   run:
     - python >=3.8
-    - ruamel.yaml >=0.15.3
-    - ruamel.yaml.jinja2
+    - ruamel.yaml >=0.1.0
 
 test:
   imports:

@@ -7,7 +7,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/conda-souschef-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/conda_souschef-{{ version }}.tar.gz
   sha256: 0df9fa12d826ab349e8006e498c6067b3a5161cf5b860baf08601829cb1b200b
 
 build:
